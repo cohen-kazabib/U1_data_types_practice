@@ -4,12 +4,19 @@
  * Declare a variable called myFavoriteSong on one line and console.log the value
  * Then, using your Literals, console.log "my favorite song is..." with the song's value
  */
+const myFavoriteSong = "On Tha Line"
+//console.log(myFavoriteSong)
+//console.log(`My favorite song is ${myFavoriteSong}`)
 
 /*
  * Prompt 2:
  *
  * Create 3 variables using let and const, then console.log each of them, using a string literal (` ${} `} in the log
  */
+ //let firstName = 'Cohen'
+ //let age = 20
+ //let city ='Charleston'
+ //console.log(`My name is ${firstName} I am ${age} years old and I am from ${city}`)
 
 /*
  * Prompt 3:
@@ -21,6 +28,13 @@
  *   - divide your variable by 7
  *   - calculate the remainder of dividing your variable by 2
  */
+const number = 13
+//console.log(number + 15)
+//console.log(number - 5)
+//console.log(number * 3)
+//console.log(number / 7)
+//console.log(number % 2)
+
 
 /*
  * Prompt 4:
@@ -34,12 +48,22 @@
  * Run a console.log that says 'hello my name is..." with your fullName. 
  */
 
+const firstName = 'Cohen'
+const lastName = 'Kazabib'
+const fullName = (firstName +" " lastName) 
+//console.log(`Hello my name is ${fullName}`)
 
 /* Arrays */
 
 // Create an array of Movies, then log the 2nd movie in your array
 // Use your array methods to add a movie in to the Front of the array, then the Back of the Array, then to the 2nd index point of the array
 
+let movies = ['Rango', 'Scarface', 'Hacksaw Ridge']
+//console.log(movies[1])
+movies.unshift('Taledega Nights')
+movies.push('The Matrix')
+movies.splice(1, 0, '1984')
+console.log(movies) 
 
 /*
  *
@@ -56,13 +80,19 @@ let array3 = [
   ['Marty Feldman', ['Marty Marion']],
   ['Marty Stuart', ['Marty Janetty', ['Marty McFly'], 'Marty Robbins']]
 ];
-
+//console.log(array1[2])
+//console.log(array2[1][1])
+//console.log(array3[1][1][1])
+// Very confused here
 /*
  *
  * Use the length of the array below to retrieve the second to last item.
  */
 
-let array4 = ['a', 'b', 'c', 'd', 'e'];
+let array4 = ['a', 'b', 'c', 'd', 'e']; 
+//console.log(array4[array4.length - 2])
+
+
 
 /*
  *
@@ -74,6 +104,20 @@ let karolin = ['Karolin', 16, 'New York'];
 let kristyn = ['Kristyn', 5, 'Pittsburgh'];
 let cathleen = ['Cathleen', 186, 'New York'];
 
+thom.shift('Thom')
+//console.log(thom)
+thom.push('Tom')
+//console.log(thom)
+cathleen.pop('New York')
+cathleen.push('Gotham City')
+//console.log(cathleen)
+karolin[1] = karolin[1] + 1
+console.log(karolin)
+
+kristyn.pop()
+kristyn.push('Oakland')
+kristyn[2] = 'Oakland'
+console.log(kristyn)
 // Cathleen decides that Thom can't be named "Thom" anymore. Remove "Thom" from
 // the thom array and replace it with "Tom".
 
